@@ -81,9 +81,9 @@ network WiredNetwork
         SwitchA.ethg[numHosts+1] <--> Ether1000M <--> SwitchC.ethg[numHosts];
 
 
-        SwitchB.ethg[numHosts+1] <--> Ether1000M <--> serverB.pppg++;
-        SwitchC.ethg[numHosts+1] <--> Ether1000M <--> serverC.pppg++;
-        SwitchA.ethg[numHosts+2] <--> Ether1000M <--> serverA.pppg++;
+        SwitchB.ethg[numHosts+1] <--> Ether1000M <--> serverB.ethg++;
+        SwitchC.ethg[numHosts+1] <--> Ether1000M <--> serverC.ethg++;
+        SwitchA.ethg[numHosts+2] <--> Ether1000M <--> serverA.ethg++;
 }
 
 
